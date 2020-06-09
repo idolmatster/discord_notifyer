@@ -4,7 +4,7 @@ const bot = new Discord.Client({ disableEveryone: true });
 
 bot.on('ready', async () => {
 
-    (await bot.fetchUser(cfg.user)).send(cfg.msg);
+    (await bot.fetchUser(cfg.user)).send(cfg.msg).then(() => { process.exit(); });
 
 });
 
