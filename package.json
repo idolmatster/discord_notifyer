@@ -1,0 +1,21 @@
+{
+    "name": "discord_notifyer",
+    "version": "1.0.0",
+    "description": "a bot that sends you a notification",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/idolmatster/discord_notifyer.git"
+    },
+    "keywords": [
+        "bot",
+        "discord"
+    ],
+    "author": "max",
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    }
+}
